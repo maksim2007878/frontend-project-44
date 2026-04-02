@@ -5,11 +5,11 @@
   "type": "module",
   "main": "src/index.js",
   "bin": {
-  "brain-games": "bin/brain-games.js",
-  "brain-even": "bin/brain-even.js",
-  "brain-calc": "bin/brain-calc.js",
-  "brain-gcd": "bin/brain-gcd.js"
-},
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/maksim2007878/frontend-project-44#readme",
   "dependencies": {
+    "link": "^2.1.2",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
